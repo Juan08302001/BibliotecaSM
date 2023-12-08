@@ -1,0 +1,259 @@
+﻿
+
+/* Estilos Para las pantallas modales*/
+
+/* Para Procesos */
+
+.Retro{
+   position: absolute;
+   width:99%;
+   height:100%;
+   left: 0px;
+   top: 0px;
+   background: rgba(0,0,0,.8);
+   margin:0 0 0 0;
+   display: none;
+    z-index: 15215515;
+
+
+}
+
+.Retro .Mensaje{
+   position: relative;
+   width:500px;
+   height:auto;
+   padding:2.5rem;
+   background: #ffffff;
+     top: 50%;
+   left: 50%;
+  -webkit-transform: translateX(-50%) translateY(-50%);
+  -moz-transform: translateX(-50%) translateY(-50%);
+  -ms-transform: translateX(-50%) translateY(-50%);
+  -o-transform:translateX(-50%) translateY(-50%);
+  transform: translateX(-50%) translateY(-50%);
+  border-radius: 10px;
+  
+}
+
+.Retro .Mensaje .Desc_Men{
+   
+   width:100%;
+   height:auto;
+   padding:1rem;
+    
+
+}
+
+.Retro .Mensaje .Desc_Men p{
+	text-align: center;
+	font-family: 'Raleway', sans-serif;
+	font-size: 1.3rem;
+}
+
+
+.Retro .Mensaje .Desc_Men img{
+  display: block;
+  margin:0 auto 0 auto;
+  position: relative;
+  height: 5rem;
+  width: 5rem;
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.Retro .Mensaje .Desc_Men button{
+     width: 130px;
+    height: auto;
+    border-radius: 10px;
+    font-family: 'Raleway', sans-serif;
+    text-align: center;
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.10);
+     background: var(--color-principal);
+    font-size: 1rem;
+    border:none;
+    color:#ffffff;
+    padding: 1.1rem;
+    margin-top: 20px;
+    border:none;
+    cursor: pointer;
+
+}
+
+.Retro .Mensaje .Desc_Men button:hover{
+   background: #000000;
+     webkit-transition: all 400ms ease;
+-o-transition:all 400ms ease;
+transition:all 400ms  ease;
+
+}
+
+/****** Para dar bienvenida al usuario ***********/
+
+.Bienvenida{
+    position: fixed;
+     top: 50%;
+   left: 50%;
+  -webkit-transform: translateX(-50%) translateY(-50%);
+  -moz-transform: translateX(-50%) translateY(-50%);
+  -ms-transform: translateX(-50%) translateY(-50%);
+  -o-transform:translateX(-50%) translateY(-50%);
+  transform: translateX(-50%) translateY(-50%);
+  z-index: 2000;
+  width: 100%;
+  height: 420px;
+  background: rgba(255,255,255,.9);
+  display: none;
+  z-index: 15851519898;
+
+
+}
+
+.Bienvenida .Saludo{
+  width: 100%;
+  height: auto;
+  padding: 20px;
+  position: relative;
+   top: 50%;
+   left: 50%;
+  -webkit-transform: translateX(-50%) translateY(-50%);
+  -moz-transform: translateX(-50%) translateY(-50%);
+  -ms-transform: translateX(-50%) translateY(-50%);
+  -o-transform:translateX(-50%) translateY(-50%);
+  transform: translateX(-50%) translateY(-50%);
+  
+  
+}
+
+.Bienvenida .Saludo p{
+  text-align: center;
+   font-family: 'Raleway', sans-serif;
+   font-size: 90px;
+   color:#393636;
+
+}
+
+.Bienvenida .Saludo img{
+    display: block;
+    margin:0 auto 0 auto;
+    width: 150px;
+    height:150px;
+}
+
+
+/** Para mostrar Capa de Cumpleaños **/
+
+
+#Cumple{
+   width: 100%;
+   height: 100%;
+   position: fixed;
+   background: url(imagenes/cumple3.jpeg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  z-index: 98797987897987987989898234234;
+   display: none;
+
+  
+}
+
+#Cumple #Capa{
+  background: rgba(0,0,0,.8);
+  width: 100%;
+  height: 100%;
+}
+
+
+#Cumple #Capa #Mensaje{
+     width: 80%;
+     height: auto;
+     padding: 20px;
+     position: relative;
+      top: 50%;
+   left: 50%;
+  -webkit-transform: translateX(-50%) translateY(-50%);
+  -moz-transform: translateX(-50%) translateY(-50%);
+  -ms-transform: translateX(-50%) translateY(-50%);
+  -o-transform:translateX(-50%) translateY(-50%);
+  transform: translateX(-50%) translateY(-50%);
+/*display: none;*/
+
+
+}
+
+#Cumple #Capa #Mensaje p{
+
+  font-family: 'Raleway', sans-serif;
+  font-size: 50px;
+  text-align: center;
+  color:#ffffff;
+}
+
+
+#Cumple #Capa #Mensaje  img{
+box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.10);
+
+}
+
+/*****************/
+
+.TablaModal{
+  position: fixed;
+  margin:0;
+  padding: 0px;
+  width: 100%;
+  height: 100%;
+  background: rgba(0,0,0,.8);
+  z-index: 15215515;
+  display: none;
+}
+
+
+.TablaModal .DetalleTabla {
+   background: #ffffff;
+   display: block;
+   margin:auto;
+   width: 450px;
+   height: auto;
+   padding: 10px;
+   margin-top: 130px;
+  border-radius: 3px;
+
+}
+
+.TablaModal .DetalleTabla p{
+  text-align: center;
+  font-size: 1rem;
+   font-family: 'Raleway', sans-serif;
+}
+
+
+.TablaModal .DetalleTabla table{
+  width: 100%;
+  height: auto;
+  padding: 5px;
+}
+
+.TablaModal .DetalleTabla table td{
+  width: auto;
+  height: auto;
+  padding: 5px;
+  color:#000000;
+  font-family: 'Raleway', sans-serif;
+  font-size: 1rem;
+  background: #EAECEE;
+
+}
+
+.TablaModal .DetalleTabla .btn {
+  width: 100%;
+  height: auto;
+  padding: 15px;
+  text-align: center;
+  color:#ffffff;
+  background: #bc0026;
+  cursor: pointer;
+    font-size: 1rem;
+}
+
